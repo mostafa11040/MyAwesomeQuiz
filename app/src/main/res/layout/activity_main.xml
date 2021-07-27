@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".MainActivity"
+    android:padding="16dp">
+    <TextView
+        android:id="@+id/Awesome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Awesome Quiz"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+         />
+
+    <TextView
+        android:id="@+id/text_view_highscore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score 0"
+        android:textColor="@color/black"
+        android:textSize="26dp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/button_start_quiz"
+        android:layout_marginBottom="16dp"
+        />
+
+    <Button
+        android:id="@+id/button_start_quiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Start Quiz" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="By: Desha"
+        android:layout_below="@id/button_start_quiz"
+        android:layout_marginTop="150dp"
+        android:textSize="32dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+
+        />
+
+
+</RelativeLayout>
